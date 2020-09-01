@@ -3,7 +3,7 @@
     font-family: monospace, sans-serif;
     font-size: 175%;
     color: black;
-    width: 270px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 10px 0px;
@@ -12,12 +12,11 @@
     border-style: solid;
     border-width: 0px 0px 2px 0px;
     
-    
 }
 
 .menu-content {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
     display: inline;
 }
 
