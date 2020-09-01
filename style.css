@@ -1,3 +1,41 @@
+body {
+  background-color: #DDDDDD;
+}
+
+.image {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  border-color: black;
+  border-width: -5px;
+  border-style: solid;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+
+.programming {
+  width: 400px;
+  padding: 5%;
+}
+
+.tools {
+  width: 400px;
+  padding: 5%;
+}
+
+.collaboration {
+  width: 400px;
+  padding: 5%;
+}
+
 .menu {
     list-style-type: none;
     font-family: monospace, sans-serif;
@@ -15,8 +53,8 @@
 }
 
 .menu-content {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 5px;
+    margin-left: 5px;
     display: inline;
 }
 
