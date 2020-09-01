@@ -1,6 +1,6 @@
 .menu {
     list-style-type: none;
-    font-family: monospace;
+    font-family: monospace, sans-serif;
     font-size: 175%;
     color: black;
     width: 270px;
