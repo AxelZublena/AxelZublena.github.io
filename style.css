@@ -3,6 +3,7 @@ body {
   font-family: monospace, sans-serif;
 }
 
+
 .image {
   object-fit: cover;
   height: 400px;
@@ -104,4 +105,18 @@ body {
   color: black;
   text-decoration: none;
 }
-  
+
+footer {
+  display: grid;
+  grid-row: auto auto auto;
+  justify-content: space-evenly;
+}
+#footer-left {
+  grid-column: 1;
+}
+#footer-center {
+  grid-column: 2;
+}
+#footer-right {
+  grid-column: 3;
+}
