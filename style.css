@@ -1,5 +1,6 @@
 body {
   background-color: #DDDDDD;
+  font-family: monospace, sans-serif;
 }
 
 .image {
@@ -36,9 +37,35 @@ body {
   padding: 5%;
 }
 
+.programming:hover {
+  animation-name: zoom;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.tools:hover {
+  animation-name: zoom;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.collaboration:hover {
+  animation-name: zoom;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  100% {
+    padding-top: 3%;
+    transform: scale(1.15);
+  }
+}
+
+
 .menu {
     list-style-type: none;
-    font-family: monospace, sans-serif;
+    
     font-size: 175%;
     color: black;
     width: 300px;
