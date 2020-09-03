@@ -4,6 +4,7 @@ body {
   font-family: monospace, sans-serif;
 }
 
+/*-------------------------------------------------------*/
 /*Image transformation*/
 .image {
   object-fit: cover;
@@ -28,12 +29,10 @@ body {
   width: 400px;
   padding: 5%;
 }
-
 .tools {
   width: 400px;
   padding: 5%;
 }
-
 .collaboration {
   width: 400px;
   padding: 5%;
@@ -45,13 +44,11 @@ body {
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-
 .tools:hover {
   animation-name: zoom;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-
 .collaboration:hover {
   animation-name: zoom;
   animation-duration: 0.2s;
@@ -66,7 +63,7 @@ body {
 }
 
 
-
+/*-------------------------------------------------------*/
 /*Profile page setup*/
 .center-profile {
   display: grid;
@@ -83,6 +80,26 @@ body {
   border-style: solid;
 }
 
+
+/*Programmation content*/
+.prog-history {
+  display: grid;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  width: fit-content;
+}
+#image-selfie{
+  grid-row:1;
+  grid-column: 1;
+}
+#text-prog{
+  grid-row: 1;
+  grid-column: 2;
+  padding-left: 5%;
+  width: 700px;
+  text-align: justify;
+}
 /*Automobile content*/
 .automobile-racing {
   display: grid;
@@ -98,26 +115,6 @@ body {
   grid-column: 1;
 }
 #text-racing{
-  grid-row: 1;
-  grid-column: 2;
-  padding-left: 5%;
-  width: 700px;
-  text-align: justify;
-}
-
-/*Programmation content*/
-.prog-history {
-  display: grid;
-  justify-content: center;
-  padding-bottom: 5%;
-  padding-top: 5%;
-  width: fit-content;
-}
-#image-selfie{
-  grid-row:1;
-  grid-column: 1;
-}
-#text-prog{
   grid-row: 1;
   grid-column: 2;
   padding-left: 5%;
@@ -146,9 +143,13 @@ body {
 
 
 
+/*-------------------------------------------------------*/
+nav {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+}
 .menu {
     list-style-type: none;
-    
     font-size: 175%;
     color: black;
     width: 300px;
@@ -159,7 +160,6 @@ body {
     border-color: black;
     border-style: solid;
     border-width: 0px 0px 2px 0px;
-    
 }
 
 .menu-content {
@@ -167,27 +167,33 @@ body {
     margin-left: 5px;
     display: inline;
 }
-
 .menu-link:link {
     color: black;
     text-decoration: none;
 }
-  
 .menu-link:visited {
   color: black;
   text-decoration: none;
 }
-  
 .menu-link:hover {
   color: grey;
   text-decoration: none;
 }
-  
 .menu-link:active {
   color: black;
   text-decoration: none;
 }
 
+#dashboard-icon img{
+  width: 45px;
+}
+#dashboard-icon {
+  text-align: right;
+  padding: 20px;
+}
+
+
+/*-------------------------------------------------------*/
 footer {
   display: grid;
   grid-row: auto auto auto;
