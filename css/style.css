@@ -142,6 +142,154 @@ body {
 }
 
 
+.center-faq h1 {
+  padding-left: 10%;
+  padding-bottom: 25px;
+}
+
+#faq-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0% 0% 10% 0%;
+  row-gap: 20%;
+  column-gap: 0%;
+  justify-items: center;
+}
+
+.block-faq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#faq-menu a:link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+#faq-menu a:visited {
+  color: black;
+  text-decoration: none;
+}
+#faq-menu a:hover {
+  color: black;
+  text-decoration: none;
+}
+#faq-menu a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.tile {
+  background-size: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+  border-color: black;
+  border-width: -5px;
+  border-style: solid;
+  color: rgba(255, 255, 255, 0);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tile:hover {
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
+#tile-1 {
+  background-image: url("../img/printer.jpg");
+}
+#tile-2 {
+  background-image: url("../img/scan.jpg");
+}
+#tile-3 {
+  background-image: url("../img/health.jpg");
+}
+#tile-4 {
+  background-image: url("../img/book-space.jpg");
+}
+#tile-5 {
+  background-image: url("../img/parking.jpg");
+}
+#tile-6 {
+  background-image: url("../img/bank-card.jpg");
+}
+
+#tile-1:hover {
+  animation-name: tile-anim-1;
+  
+}
+#tile-2:hover {
+  animation-name: tile-anim-2;
+}
+#tile-3:hover {
+  animation-name: tile-anim-3;
+}
+#tile-4:hover {
+  animation-name: tile-anim-4;
+}
+#tile-5:hover {
+  animation-name: tile-anim-5;
+}
+#tile-6:hover {
+  animation-name: tile-anim-6;
+}
+
+@keyframes tile-anim-1 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/printer-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+@keyframes tile-anim-2 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/scan-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+@keyframes tile-anim-3 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/health-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+@keyframes tile-anim-4 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/book-space-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+@keyframes tile-anim-5 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/parking-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+@keyframes tile-anim-6 {
+  100% {
+      color: black;
+      font-size: 275%;
+      background-image: url("../img/bank-card-blur.jpg");
+      transform: scale(1.15);
+  }
+}
+
+
+
 
 /*-------------------------------------------------------*/
 nav {
