@@ -4,6 +4,11 @@ body {
   font-family: monospace, sans-serif;
 }
 
+a {
+  color: #2b7ccc;
+  text-decoration: none;
+}
+
 
 /*-------------------------------------------------------*/
 /*Image transformation*/
@@ -158,6 +163,7 @@ details {
 
 summary {
   font-size: 150%;
+  font-weight: 900;
 }
 summary:hover {
   cursor: pointer;
