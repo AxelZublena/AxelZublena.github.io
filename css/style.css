@@ -72,7 +72,7 @@ a {
 
 /*-------------------------------------------------------*/
 /*Profile page setup*/
-.center-profile {
+.description {
   display: grid;
   justify-content: space-evenly;
 }
@@ -147,6 +147,58 @@ a {
     transform: scale(1.20);
   }
 }
+
+
+#info {
+  display: flex;
+  flex-flow: row;
+}
+#info h2 {
+  padding: 8px 0% 0% 10px;
+}
+#info a:link {
+  color: grey;
+  text-decoration: none;
+}
+#info a:visited {
+color: gray;
+text-decoration: none;
+}
+#info a:hover {
+color: #2b7ccc;
+text-decoration: none;
+}
+#info a:active {
+color: #2b7ccc;
+text-decoration: none;
+}
+
+
+
+#advanced-details {
+  background-color: whitesmoke;
+  display: flex;
+  /* width: 100%; */
+}
+
+.info-title {
+  background-color: #C4C4C4;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.info-answer {
+  background-color: green;
+  border-radius: 0px 0px 10px 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 
 .center-faq {
