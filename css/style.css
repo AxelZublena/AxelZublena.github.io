@@ -273,17 +273,22 @@ th, td {
 }
 
 #legend {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 200px;
   padding-top: 15px;
   padding-bottom: 40px;
+  margin-left: -150px;
 }
 #legend div {
   width: 50px;
   height: 25px;
   display: grid;
-  grid-template-columns: 50px 100px;
+  grid-template-columns: 50px 200px;
   
 }
 #legend p {
@@ -306,10 +311,17 @@ th, td {
 .todo {
   background-color: #DDDDDD;
 }
+.to-be-retaken {
+  background-color: red;
+}
 
-
-#spacer {
-  height: 50px;
+.second-part {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  column-gap: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .study-guide {
@@ -319,6 +331,7 @@ th, td {
   border-width: 2px;
   border-color: black;
   border-style: solid;
+  
 }
 #study-guide-title {
   background-color: #C4C4C4;
@@ -333,6 +346,31 @@ th, td {
 .study-guide-links a {
   padding-bottom: 10px;
   margin: 0px 15px 0px 10px;
+}
+
+.nbsa {
+  width: fit-content;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  
+}
+#nbsa-title {
+  background-color: #C4C4C4;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+.nbsa-info {
+  margin: 0px 15px 0px 15px;
+  padding-bottom: 15px;
+}
+#ec-count:after {
+  content: "0";
+  color: red;
 }
 
 
