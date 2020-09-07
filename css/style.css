@@ -73,7 +73,7 @@ a {
 /*Profile page setup*/
 .description {
   display: grid;
-  justify-content: space-evenly;
+  justify-content: space-evenly;  
 }
 
 .image-profile {
@@ -236,28 +236,29 @@ summary:hover {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
 }
 
 #study-monitor-title {
   background-color: #C4C4C4;
   border-radius: 10px 10px 0px 0px;
   padding: 10px;
+  margin-top: 0px;
   text-align: center;
 }
 
 table {
   margin-top: -10px;
+  padding: 0px 20px 0px 20px;
 }
 #study-monitor-table tr{
   font-size: 150%;
 }
 
-/* #top-left-corner {
-  border-top-left-radius: 10px;
-}
-#top-right-corner {
-  border-top-right-radius: 10px;
-} */
 #bottom-left-corner{
   border-bottom-left-radius: 10px;
 }
@@ -271,9 +272,68 @@ th, td {
   border-collapse: collapse;
 }
 
+#legend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+#legend div {
+  width: 50px;
+  height: 25px;
+  display: grid;
+  grid-template-columns: 50px 100px;
+  
+}
+#legend p {
+  margin-top: 6px;
+  padding-left: 15px;
+}
+.legend-color {
+  border-radius: 10px;
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.done {
+  background-color: lightgreen;
+}
+.doing {
+  background-color: lightblue;
+}
+.todo {
+  background-color: #DDDDDD;
+}
 
 
+#spacer {
+  height: 50px;
+}
 
+.study-guide {
+  width: fit-content;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+#study-guide-title {
+  background-color: #C4C4C4;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+.study-guide-links {
+  display: grid;
+}
+.study-guide-links a {
+  padding-bottom: 10px;
+  margin: 0px 15px 0px 10px;
+}
 
 
 
