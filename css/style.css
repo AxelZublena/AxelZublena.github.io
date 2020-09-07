@@ -31,7 +31,6 @@ a {
   width: 100%;
   
 }
-
 .programming {
   width: 400px;
   padding: 5%;
@@ -200,7 +199,8 @@ text-decoration: none;
 
 
 
-
+/*-------------------------------------------------------*/
+/*FAQ page setup*/
 .center-faq {
   width: 60%;
   margin: auto;
@@ -220,6 +220,61 @@ summary {
 summary:hover {
   cursor: pointer;
 }
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------*/
+/*Dashboard page setup*/
+.study-monitor {
+  align-items: center;
+  width: fit-content;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#study-monitor-title {
+  background-color: #C4C4C4;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  margin-top: -10px;
+}
+#study-monitor-table tr{
+  font-size: 150%;
+}
+
+/* #top-left-corner {
+  border-top-left-radius: 10px;
+}
+#top-right-corner {
+  border-top-right-radius: 10px;
+} */
+#bottom-left-corner{
+  border-bottom-left-radius: 10px;
+}
+#bottom-right-corner {
+  border-bottom-right-radius: 10px;
+}
+
+th, td {
+  padding: 5px 25px 5px 25px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+
+
+
 
 
 
