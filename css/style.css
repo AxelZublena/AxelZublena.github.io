@@ -442,7 +442,7 @@ th, td {
 }
 #nbsa-progress {
   background-color: dodgerblue;
-  width: 0%;
+  width: 0%; /* Change this property to update the progress bar */
   height: 20px;
   border-radius: 10px;
 }
@@ -457,7 +457,7 @@ th, td {
 }
 #year-progress {
   background-color: dodgerblue;
-  width: 10%;
+  width: 10%; /* Change this property to update the progress bar */
   height: 20px;
   border-radius: 10px;
 }
@@ -474,8 +474,6 @@ th, td {
     transform: scale(1.1);
   }
 }
-
-
 
 
 
@@ -530,6 +528,7 @@ nav {
   text-align: right;
   padding: 20px;
 }
+
 
 
 /*-------------------------------------------------------*/
