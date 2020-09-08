@@ -432,6 +432,37 @@ th, td {
   color: red;
 }
 
+.progress-bar {
+  background-color: white;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  width: auto;
+  height: 20px;
+}
+#nbsa-progress {
+  background-color: dodgerblue;
+  width: 0%;
+  height: 20px;
+  border-radius: 10px;
+}
+#nbsa-boundary {
+  background-color: red;
+  border-radius: 10px;
+  height: 20px;
+  width: 2px;
+  position: relative;
+  top: -20px;
+  left: 75%;
+}
+
+#year-progress {
+  background-color: dodgerblue;
+  width: 10%;
+  height: 20px;
+  border-radius: 10px;
+}
 
 
 
