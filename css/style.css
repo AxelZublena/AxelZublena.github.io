@@ -390,7 +390,16 @@ th, td {
   border-width: 2px;
   border-color: black;
   border-style: solid;
-  
+}
+.study-guide:hover {
+  animation-name: zoom4;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom4 {
+  100% {
+    transform: scale(1.1);
+  }
 }
 #study-guide-title {
   background-color: #C4C4C4;
@@ -415,6 +424,16 @@ th, td {
   border-color: black;
   border-style: solid;
   
+}
+.nbsa:hover {
+  animation-name: zoom5;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+@keyframes zoom5 {
+  100% {
+    transform: scale(1.1);
+  }
 }
 #nbsa-title {
   background-color: #C4C4C4;
