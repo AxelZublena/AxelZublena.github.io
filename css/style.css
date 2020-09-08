@@ -1,27 +1,17 @@
-/*Body setup*/
+/*-------------------------------------------------------*/
+/*General settings*/
 body {
   background-color: #DDDDDD;
   font-family: monospace, sans-serif;
 }
-
 a {
   color: #2b7ccc;
   text-decoration: none;
 }
 
 
-/*-------------------------------------------------------*/
-/*Image transformation*/
-.image {
-  object-fit: cover;
-  height: 400px;
-  width: 400px;
-  border-radius: 5%;
-  border-color: black;
-  border-width: -5px;
-  border-style: solid;
-}
 
+/*-------------------------------------------------------*/
 /*Home page setup*/
 .center-home {
   display: flex;
@@ -44,6 +34,17 @@ a {
   padding: 5%;
 }
 
+/*Image transformation*/
+.image {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  border-radius: 5%;
+  border-color: black;
+  border-width: -5px;
+  border-style: solid;
+}
+
 /*Animation mouse hover image (home page)*/
 .programming:hover {
   animation-name: zoom;
@@ -60,7 +61,6 @@ a {
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-
 /*Keyframes for home page annimation*/
 @keyframes zoom {
   100% {
@@ -69,13 +69,14 @@ a {
 }
 
 
+
 /*-------------------------------------------------------*/
 /*Profile page setup*/
 .description {
   display: grid;
   justify-content: space-evenly;  
 }
-
+/* Images setup */
 .image-profile {
   object-fit: cover;
   height: 250px;
@@ -85,7 +86,6 @@ a {
   border-width: -5px;
   border-style: solid;
 }
-
 
 /*Programmation content*/
 .prog-history {
@@ -139,7 +139,6 @@ a {
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
-
 /*Keyframes for profile page annimation*/
 @keyframes zoom2 {
   100% {
@@ -147,13 +146,12 @@ a {
   }
 }
 
-
+/* "More info..." settings */
 #info {
   display: flex;
   flex-flow: row;
   column-gap: 15px;
 }
-
 #info a:link {
   color: grey;
   text-decoration: none;
@@ -171,8 +169,7 @@ color: #2b7ccc;
 text-decoration: none;
 }
 
-
-
+/* Advanced details setup */
 #advanced-details {
   display: flex;
   gap: 20px;
@@ -187,7 +184,6 @@ text-decoration: none;
 #advanced-details p {
   font-size: 125%;
 }
-
 .advanced-details-tile {
   width: fit-content;
   background-color: #DDDDDD;
@@ -196,17 +192,21 @@ text-decoration: none;
   border-color: white;
   border-style: solid;
 }
+
+/*Animation mouse hover tiles (profile page)*/
 .advanced-details-tile:hover {
   animation-name: zoom3;
   animation-duration: 0.2s;
   animation-fill-mode: forwards;
 }
+/*Keyframes for profile page annimation*/
 @keyframes zoom3 {
   100% {
     transform: scale(1.05);
   }
 }
 
+/* Tiles configuration (individually) */
 .info-title {
   background-color: lightskyblue;
   border-radius: 10px 10px 0px 0px;
@@ -214,13 +214,11 @@ text-decoration: none;
   margin-top: 0px;
   text-align: center;
 }
-
 .info-answer {
   margin: 0px 15px 0px 15px;
   padding-bottom: 10px;
   text-align: center;
 }
-
 .name {
   flex-grow: 1;
 }
@@ -256,8 +254,6 @@ text-decoration: none;
 
 
 
-
-
 /*-------------------------------------------------------*/
 /*FAQ page setup*/
 .center-faq {
@@ -282,16 +278,12 @@ summary:hover {
 
 
 
-
-
-
-
-
 /*-------------------------------------------------------*/
 /*Dashboard page setup*/
 .center-dashboard {
   padding-top: 50px;
 }
+/* Study monitor styling */
 .study-monitor {
   align-items: center;
   width: fit-content;
@@ -304,7 +296,6 @@ summary:hover {
   border-color: black;
   border-style: solid;
 }
-
 #study-monitor-title {
   background-color: #C4C4C4;
   border-radius: 10px 10px 0px 0px;
@@ -312,7 +303,6 @@ summary:hover {
   margin-top: 0px;
   text-align: center;
 }
-
 table {
   margin-top: -10px;
   padding: 0px 20px 0px 20px;
@@ -320,20 +310,17 @@ table {
 #study-monitor-table tr{
   font-size: 150%;
 }
-
 #bottom-left-corner{
   border-bottom-left-radius: 10px;
 }
 #bottom-right-corner {
   border-bottom-right-radius: 10px;
 }
-
 th, td {
   padding: 5px 25px 5px 25px;
   border: 1px solid black;
   border-collapse: collapse;
 }
-
 #legend {
   display: flex;
   flex-direction: row;
@@ -361,6 +348,7 @@ th, td {
   border-style: solid;
 }
 
+/* Parameters for the dashboard monitor (updtable during the year) */
 .done {
   background-color: lightgreen;
 }
@@ -368,12 +356,13 @@ th, td {
   background-color: lightblue;
 }
 .todo {
-  background-color: #DDDDDD;
+  background-color: whitesmoke;
 }
 .to-be-retaken {
   background-color: red;
 }
 
+/* Study guide and NBSA */
 .second-part {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -382,7 +371,7 @@ th, td {
   flex-direction: row;
   justify-content: center;
 }
-
+/* Study Guide tile */
 .study-guide {
   width: fit-content;
   background-color: whitesmoke;
@@ -390,16 +379,6 @@ th, td {
   border-width: 2px;
   border-color: black;
   border-style: solid;
-}
-.study-guide:hover {
-  animation-name: zoom4;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-}
-@keyframes zoom4 {
-  100% {
-    transform: scale(1.1);
-  }
 }
 #study-guide-title {
   background-color: #C4C4C4;
@@ -415,7 +394,20 @@ th, td {
   padding-bottom: 10px;
   margin: 0px 15px 0px 10px;
 }
+/*Animation mouse hover study guide (dashboard page)*/
+.study-guide:hover {
+  animation-name: zoom4;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+/*Keyframe for study guide annimation*/
+@keyframes zoom4 {
+  100% {
+    transform: scale(1.1);
+  }
+}
 
+/* NBSA tile */
 .nbsa {
   width: fit-content;
   background-color: whitesmoke;
@@ -423,17 +415,6 @@ th, td {
   border-width: 2px;
   border-color: black;
   border-style: solid;
-  
-}
-.nbsa:hover {
-  animation-name: zoom5;
-  animation-duration: 0.2s;
-  animation-fill-mode: forwards;
-}
-@keyframes zoom5 {
-  100% {
-    transform: scale(1.1);
-  }
 }
 #nbsa-title {
   background-color: #C4C4C4;
@@ -450,7 +431,6 @@ th, td {
   content: "0";
   color: red;
 }
-
 .progress-bar {
   background-color: white;
   border-radius: 10px;
@@ -475,7 +455,6 @@ th, td {
   top: -20px;
   left: 75%;
 }
-
 #year-progress {
   background-color: dodgerblue;
   width: 10%;
@@ -483,11 +462,25 @@ th, td {
   border-radius: 10px;
 }
 
+/*Animation mouse hover NBSA tile (dashboard page)*/
+.nbsa:hover {
+  animation-name: zoom5;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+/*Keyframe for NBSA tile annimation*/
+@keyframes zoom5 {
+  100% {
+    transform: scale(1.1);
+  }
+}
+
 
 
 
 
 /*-------------------------------------------------------*/
+/* Menu (navigation bar) */
 nav {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
@@ -540,6 +533,7 @@ nav {
 
 
 /*-------------------------------------------------------*/
+/* Footer (credit and information) */
 footer {
   display: grid;
   grid-row: auto auto auto;
