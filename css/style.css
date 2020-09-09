@@ -186,7 +186,7 @@ text-decoration: none;
 }
 .advanced-details-tile {
   width: fit-content;
-  background-color: #DDDDDD;
+  background-color: whitesmoke; /*DDDDDD*/
   border-radius: 10px;
   border-width: 2px;
   border-color: white;
@@ -208,7 +208,7 @@ text-decoration: none;
 
 /* Tiles configuration (individually) */
 .info-title {
-  background-color: lightskyblue;
+  background-color: #C4C4C4;
   border-radius: 10px 10px 0px 0px;
   padding: 10px;
   margin-top: 0px;
