@@ -489,7 +489,7 @@ nav {
     list-style-type: none;
     font-size: 175%;
     color: black;
-    width: 300px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 10px 0px;
@@ -500,8 +500,8 @@ nav {
 }
 
 .menu-content {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
     display: inline;
 }
 .menu-link:link {
