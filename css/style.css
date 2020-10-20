@@ -254,6 +254,34 @@ text-decoration: none;
 
 
 
+
+/*profession*/
+
+#assignment1{
+  display: grid;
+  justify-content: space-evenly;  
+}
+.company-tile{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  width: fit-content;
+} 
+.image-company{
+  grid-row:1;
+  grid-column: 1;
+}
+.text-company{
+  grid-row: 1;
+  grid-column: 2;
+  padding-left: 5%;
+  width: 700px;
+  text-align: justify;
+} 
+
+
 /*-------------------------------------------------------*/
 /*FAQ page setup*/
 .center-faq {
