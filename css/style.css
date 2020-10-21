@@ -281,6 +281,28 @@ text-decoration: none;
   text-align: justify;
 } 
 
+.company-block{
+    display: grid;
+    place-content: center;
+    padding-top: 4%;
+    grid-template-columns: 1000px;
+    justify-items: center;
+    align-items: center;
+}
+.company-imgs{
+    display: flexbox;
+    box-sizing: border-box;
+    width: 1000px;
+}
+.profession-img{
+  object-fit: cover;
+  height: 250px;
+  width: 35%;
+  border-radius: 5%;
+  border-color: white;
+  border-width: -5px;
+  border-style: solid;
+}
 
 /*-------------------------------------------------------*/
 /*FAQ page setup*/
