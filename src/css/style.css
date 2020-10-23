@@ -277,9 +277,27 @@ text-decoration: none;
     background-color: #C4C4C4;
 }
 .motivation-info{
-    margin: 0px 35px 0px 35px;
+    margin: 0px 25px 0px 25px;
+}
+.motivation-info li{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
 
+/*Animation mouse hover tiles (motivation page)*/
+.motivation-tile:hover {
+  animation-name: zoom6;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+/*Keyframes for motivation page annimation*/
+@keyframes zoom6 {
+  100% {
+    transform: scale(1.05);
+  }
+}
 
 
 /* Profession page*/
@@ -329,6 +347,18 @@ text-decoration: none;
   border-color: white;
   border-width: -5px;
   border-style: solid;
+}
+/*Animation mouse hover tiles (profession page)*/
+.company-block:hover {
+  animation-name: zoom7;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+/*Keyframes for profession page annimation*/
+@keyframes zoom7 {
+  100% {
+    transform: scale(1.05);
+  }
 }
 
 /*-------------------------------------------------------*/
